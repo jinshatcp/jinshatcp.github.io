@@ -538,22 +538,22 @@ function showTime(){
   if (d != 0 && d != 6) {
     /* Change status depending on the time */
     if ((h == 0 || h == 24) || h < 08) {
-      statusColor = "#0373fc";
+      statusColor = "#FF0000";
       statusText = "i am currently sleeping";
     }
 
     else if (h >= 08 && h < 14) {
-      statusColor = "#FFA500";
+      statusColor = "#008000";
       statusText = "Available now";
     }
 
     else if ( h >= 14 && h < 18) {
-      statusColor = "#bf1919";
+      statusColor = "#008000";
       statusText = " Available now";
     }
 
     else if (h >= 18 && h < 24)  {
-      statusColor = "#15c215";
+      statusColor = "#008000";
       statusText = "Available now";
     }
   } else {
