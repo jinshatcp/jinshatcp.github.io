@@ -533,27 +533,28 @@ function showTime(){
   var statusText = "";
   var session = "AM";
 
+ 
   /* Check if its week or weekend */
   if (d != 0 && d != 6) {
     /* Change status depending on the time */
     if ((h == 0 || h == 24) || h < 08) {
       statusColor = "#0373fc";
-      statusText = "Actualmente estoy durmiendo";
+      statusText = "i am currently sleeping";
     }
 
     else if (h >= 08 && h < 14) {
       statusColor = "#FFA500";
-      statusText = "Actualmente estoy estudiando";
+      statusText = "Available now";
     }
 
     else if ( h >= 14 && h < 18) {
       statusColor = "#bf1919";
-      statusText = "Actualmente estoy en clase";
+      statusText = " Available now";
     }
 
     else if (h >= 18 && h < 24)  {
       statusColor = "#15c215";
-      statusText = "Actualmente estoy descansando";
+      statusText = "Available now";
     }
   } else {
       /* Change status depending on the time */
