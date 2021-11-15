@@ -564,7 +564,7 @@ function showTime(){
       }
       else if (h >= 8 && h < 24)  {
         statusColor = "#15c215";
-        statusText = "Not available now';
+        statusText = "Not available now";
       }
   }
 
