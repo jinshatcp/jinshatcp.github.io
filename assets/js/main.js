@@ -560,11 +560,11 @@ function showTime(){
       /* Change status depending on the time */
       if ((h == 0 || h == 24) || h < 08) {
         statusColor = "#0373fc";
-        statusText = "Actualmente estoy durmiendo";
+        statusText = "I am currently sleeping";
       }
       else if (h >= 8 && h < 24)  {
         statusColor = "#15c215";
-        statusText = "Actualmente estoy descansando";
+        statusText = "Not available now';
       }
   }
 
@@ -608,7 +608,7 @@ copyright();
 
 /* ==================== TIPYNG TITLE ANIMATION ==================== */
 window.ityped.init(document.querySelector('.ityped'),{
-  strings: ['Front-End Dev ','UI Designer'],
+  strings: ['Full-Stack Dev ','Software Engineer'],
   loop: true,
   typeSpeed:  150,
   backDelay: 3000,
