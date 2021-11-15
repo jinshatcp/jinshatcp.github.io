@@ -563,7 +563,7 @@ function showTime(){
         statusText = "I am currently sleeping";
       }
       else if (h >= 8 && h < 24)  {
-        statusColor = "#15c215";
+        statusColor = "#ff051e";
         statusText = "Not available now";
       }
   }
